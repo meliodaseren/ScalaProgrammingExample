@@ -1,5 +1,4 @@
 
-
 object EnumWeekDay4 {
   type EnumWeekDay4 = Int
 
@@ -20,9 +19,3 @@ def checkDay (day:EnumWeekDay4) = day match {
 }
 
 checkDay (d2)
-
-
-
-
-
-

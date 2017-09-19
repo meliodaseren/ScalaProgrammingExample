@@ -1,5 +1,4 @@
 
-
 object EnumWeekDay5 extends Enumeration {
   type EnumWeekDay5 = Value
   val Mon, Tue, Wed, Thr, Fri, Sat, Sun = Value
@@ -15,9 +14,3 @@ def checkDay (day:EnumWeekDay5) = day match {
 }
 
 checkDay (d)
-
-
-
-
-
-
