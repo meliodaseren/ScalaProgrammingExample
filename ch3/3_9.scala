@@ -19,6 +19,5 @@ def matchDay (d: Weekday) = d match {
   case other => "Working day"
 }
 
-
 println (Weekday.values)
 println (Weekday.values.map (matchDay)) 

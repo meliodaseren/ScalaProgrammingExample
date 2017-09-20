@@ -2,11 +2,9 @@ import scala.math._
 
 abstract class GeoObj 
 
-
 case class Point2D (val x:Double=0.0, val y:Double=0.0) extends GeoObj 
 case class Circle2D (val center:Point2D, val radius:Double) extends GeoObj
 case class Rectangle2D (val p1:Point2D, p2:Point2D) extends GeoObj
-
 
 def area (s:GeoObj):Double = s match {
   case Point2D (_, _) => 0.0

@@ -52,7 +52,6 @@ def eval (expr:Expression):D3 = expr match {
 
 }
 
-
 val ex1 = Mult (E, S)
 val ex2 = Mult (RS, E) 
 val ex3 = RRS
@@ -60,7 +59,6 @@ val ex4 = Mult (R, RRS)
 val ex5 = Mult (R, Mult (R, Mult (R, S)))
 val ex6 = Mult (RRS, Mult (R, S))
 val ex7 = Mult (ex6, ex5)
-
 
 println (eval (ex1))
 println (eval (ex2))
@@ -80,5 +78,3 @@ println (s1)
 println (ex8)
 
 println (eval (ex8))
-
-

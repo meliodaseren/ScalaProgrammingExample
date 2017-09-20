@@ -17,5 +17,3 @@ implicit def intToBlue (i:Int) = Blue (i)
 
 val black = RGB (0, 0, 0)
 val purple = RGB (160, 30, 240)
-
-
