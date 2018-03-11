@@ -10,4 +10,3 @@ val p2 = new Point2D (1.0, 1.0)
 
 println ("p1's dimention :" + p1.dim)
 println ("The distance between p1 and p2 :" + (p1 distance p2))
-

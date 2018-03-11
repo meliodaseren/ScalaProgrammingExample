@@ -2,10 +2,8 @@
 
 ## Environment
 
-* Windows 7 64bit
-
-* Scala version
-  * Scala 2.12.3
+* Mac OS
+* Scala 2.12.3
 
 **How to Run Scala Script**
 
