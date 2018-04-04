@@ -8,7 +8,6 @@ class Point2D {
   def distance (p:Point2D) = sqrt ( (x-p.x)*(x-p.x) + (y-p.y)*(y-p.y))
 }
 
-
 val p1 = new Point2D
 val p2 = new Point2D
 p2.x = 1.0

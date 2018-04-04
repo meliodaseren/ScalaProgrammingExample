@@ -8,4 +8,3 @@ object FibMain extends App {
   fibs take 5 foreach println
 }
 
-

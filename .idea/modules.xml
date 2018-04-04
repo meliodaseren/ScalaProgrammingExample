@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ScalaProgrammingExample.iml" filepath="$PROJECT_DIR$/.idea/ScalaProgrammingExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala-programming-example.iml" filepath="$PROJECT_DIR$/scala-programming-example.iml" />
     </modules>
   </component>
 </project>
