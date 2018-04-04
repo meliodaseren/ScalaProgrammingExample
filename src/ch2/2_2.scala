@@ -16,6 +16,5 @@ class Line2D (val p1:Point2D, val p2:Point2D) {
   val mid:Point2D = new Point2D ((p1.x+p2.x)/2, (p1.y+p2.y)/2)
 }
 
-
 val l = new Line2D (p1, p2)
 println ("The mid point of l: (" + l.mid.x + "," + l.mid.y + ")") 
